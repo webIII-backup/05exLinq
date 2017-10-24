@@ -31,8 +31,7 @@ namespace SportsStore.Models
                 _lines.Remove(line);
         }
 
-        public void Cl
-            ear() => _lines.Clear();
+        public void Clear() => _lines.Clear();
 
         #endregion
     }
